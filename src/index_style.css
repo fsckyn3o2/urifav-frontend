@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-navbar {
+  margin-bottom: 2em;
+  flex: 1;
+}
+
+.app-navbar a {
+  cursor: pointer;
+}
+
+.app-logo {
+  font-size: .9em;
+  border-bottom: 1px silver solid;
+}
+
+.app-logo > span {
+  font-size: .8em;
+  font-style: normal;
+  font-weight: bold;
+  font-family: monospace;
+  border-bottom: 1px silver solid;
+  padding: .3em .4em;
+}
+
+.app-modal-error {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding: 0 1em 1.5em;
+}
+
+.app-modal-error-icon {
+  font-size: 2em;
+  margin-right: 1em;
+  vertical-align: middle;
+}
+
+.app-modal-error-message {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: auto;
+  align-content: center;
+}
+
+.app-notification {
+  position: absolute;
+  display: block;
+  top: 2em;
+  left: 2em;
+  z-index: 999;
+  width: min(650px, 50%) !important;
+}
+
+.app-notification .toast-header {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.app-notification ul {
+  margin: 0;
+  padding: 0;
+}
+
+.app-notification li {
+  list-style: none;
+  padding-bottom: .4em;
+}
+
+.toast-header {
+  border-bottom: none !important;
+}
+
+.toast-body {
+  padding-top: 0 !important;
+}
+
+.app-notification li:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+
+.app-notification li .notification-item {
+  display: inline-block;
+  margin-right: .5em;
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+
+.app-form-error {
+  font-size: .9em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  padding-left: .5em;
+}
+
+.app-form-error.text-danger {
+  background-color: #FEE;
+}
+
+.app-form-error:after {
+  content: "\00a0";
+}

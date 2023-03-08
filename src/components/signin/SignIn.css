@@ -1,0 +1,50 @@
+.tab-content {
+    padding-left: .8em;
+    display: flex;
+    flex: 1;
+    min-height: 18rem;
+    align-content: center;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+
+.tab-content .tab-pane.active {
+    display: flex !important;
+    flex: 1;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+.thirdpart-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.thirdpart-link {
+    padding: .2em 1em;
+    border: 1px solid silver;
+    border-radius: 100px;
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+.thirdpart-link:hover {
+    border: 1px solid black;
+}
+
+.thirdpart-link-icon, .thirdpart-link-descr {
+    padding-right: 1em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.thirdpart-link-descr {
+    font-size: 1em;
+}
+
+.modal-content {
+    min-height: 460px;
+}

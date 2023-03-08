@@ -1,0 +1,11 @@
+[
+  {
+    "name": "john",
+    "pseudo": "jojoLeRigolo",
+    "email": "jojo.le@rigo.lo",
+    "creation_date": "1810-01-01",
+    "update_date": "2022-01-01",
+    "las_connexion": "2022-02-01",
+    "is_active": true
+  }
+]

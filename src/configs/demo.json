@@ -1,0 +1,61 @@
+{
+  "application": {
+    "name": "Bookmark DEMO",
+    "version": "0.0.0.1a",
+    "year": 2022,
+    "env": "demo",
+    "authentication": {
+      "github": {
+        "enable":  false,
+        "client_id": "",
+        "url": "https://github.com/login/oauth/authorize?client_id={client_id}&state={state}"
+      },
+      "google": {
+        "enable": false,
+        "client_id": ""
+      },
+      "std": {
+        "enable": true
+      },
+      "signout": {
+        "url": "/auth/signout"
+      }
+    }
+  },
+  "api": {
+    "url": "/api",
+    "accessToken": null
+  },
+  "proxy": {
+    "enable": true,
+    "configs": [
+      {
+        "url": "/api",
+        "enable": true,
+        "logLevel": "info",
+        "target": {
+          "url": "/api/v1/",
+          "host": "http://localhost:3080"
+        }
+      },
+      {
+        "url": "/auth/github",
+        "enable": true,
+        "logLevel": "info",
+        "target": {
+          "url": "/api/v1/auth/github/",
+          "host": "http://localhost:3080"
+        }
+      },
+      {
+        "url": "/auth/signout",
+        "enable": true,
+        "logLevel": "info",
+        "target": {
+          "url": "/api/v1/auth/signout",
+          "host": "http://localhost:3080"
+        }
+      }
+    ]
+  }
+}

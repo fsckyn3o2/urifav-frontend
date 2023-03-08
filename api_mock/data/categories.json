@@ -1,0 +1,80 @@
+[
+  {
+    "uuid": "001-123-123-123-123123123333",
+    "parent_uuid": null,
+    "parent_name": null,
+    "name": "default category",
+    "description": "description of default category",
+    "path": "/default/",
+    "children": [],
+    "shared": false,
+    "share_token": "998-123-123-123-123123123333",
+    "creation_date": "2022-01-17T12:51:03.006Z",
+    "update_date": "2022-02-17T12:51:03.006Z"
+  },
+  {
+    "uuid": "002-123-123-123-123123123336",
+    "parent_uuid": "001-123-123-123-123123123333",
+    "parent_name": "default category",
+    "name": "categ-1",
+    "description": "description of categ-1",
+    "path": "/categ-1/",
+    "children": [],
+    "shared": true,
+    "share_token": "998-123-123-123-123123123336",
+    "creation_date": "2022-01-17T12:51:03.006Z",
+    "update_date": "2022-02-17T12:51:03.006Z"
+  },
+  {
+    "uuid": "000-123-123-123123123337",
+    "parent_uuid": null,
+    "parent_name": null,
+    "name": "categ-2",
+    "description": "description of categ-2",
+    "path": "/categ-2/",
+    "children": [],
+    "shared": false,
+    "share_token": "998-123-123-123-123123123337",
+    "creation_date": "2022-01-17T12:51:03.006Z",
+    "update_date": "2022-02-17T12:51:03.006Z"
+  },
+  {
+    "uuid": "000-123-123-123123123338",
+    "parent_uuid": null,
+    "parent_name": null,
+    "name": "categ-3",
+    "description": "description of categ-3",
+    "path": "/categ-3/",
+    "children": [],
+    "shared": false,
+    "share_token": "998-123-123-123-123123123338",
+    "creation_date": "2022-01-17T12:51:03.006Z",
+    "update_date": "2022-02-17T12:51:03.006Z"
+  },
+  {
+    "uuid": "000-123-123-123123123339",
+    "parent_uuid": "001-123-123-123-123123123333",
+    "parent_name": "default category",
+    "name": "categ-4",
+    "description": "description of categ-4",
+    "path": "/categ-4/",
+    "children": [],
+    "shared": true,
+    "share_token": "998-123-123-123-123123123339",
+    "creation_date": "2022-01-17T12:51:03.006Z",
+    "update_date": "2022-02-17T12:51:03.006Z"
+  },
+  {
+    "uuid": "000-123-123-123123123340",
+    "parent_uuid": "000-123-123-123123123339",
+    "parent_name": "categ-4",
+    "name": "categ-41",
+    "description": "description of categ-41",
+    "path": "/categ-41/",
+    "children": [],
+    "shared": true,
+    "share_token": "998-123-123-123-123123123340",
+    "creation_date": "2022-01-17T12:51:03.006Z",
+    "update_date": "2022-02-17T12:51:03.006Z"
+  }
+]

@@ -1,0 +1,27 @@
+.categ-select-input:focus ~ ul {
+    display: block;
+}
+
+.categ-select-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid silver;
+    max-height: 150px;
+    overflow: auto;
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    z-index: 999;
+}
+.categ-select-list li {
+    padding-left: .5em;
+}
+.categ-select-list li.no-option {
+    cursor: not-allowed;
+}
+.categ-select-list li:hover,
+.categ-select-list li.mouseover {
+    background: gainsboro;
+}

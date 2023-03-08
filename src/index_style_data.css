@@ -1,0 +1,103 @@
+.app-data {
+
+}
+
+.app-data-action {
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: middle;
+    color: cornflowerblue;
+    font-weight: bold;
+    padding: .3em;
+}
+
+.app-data-action:hover {
+    color: darkblue;
+}
+
+.app-data-action > span {
+    font-size: .8em;
+    padding-left: .3em;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.app-data-id {
+}
+
+.app-data-id-tooltip {
+    visibility: hidden;
+    background-color: grey;
+    color: #fff;
+
+    text-align: center;
+    border-radius: 2px;
+
+    margin-top: .1em;
+    padding: 0 .1em;
+
+    font-size: .8em;
+
+    position: absolute;
+    z-index: 999;
+}
+
+.app-data-id:hover .app-data-id-tooltip {
+    visibility: visible;
+}
+
+.app-data-foot-actions td {
+    border: none;
+}
+
+.app-data-page {
+    display: block ruby;
+    align-content: center;
+    text-align: center;
+}
+
+.app-data-page-item {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding: 0 .3em;
+    vertical-align: middle !important;
+    line-height: 2em;
+    margin: 0 .1em;
+}
+
+.app-data-page-item-selected {
+    text-decoration: underline;
+}
+
+.app-data-page-item > div {
+    width: 100%;
+    text-align: center;
+    min-width: 2em;
+    vertical-align: middle;
+    line-height: 2em;
+    cursor: pointer;
+}
+
+.app-data-page-item > div:hover {
+    background-color: #dfdfdf;
+}
+
+.app-data-page-last, .app-data-page-first,
+.app-data-page-next, .app-data-page-previous {
+    display: flex;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 0 .4em;
+}
+
+.app-data-page-last > span, .app-data-page-first > span,
+.app-data-page-previous > span, .app-data-page-next > span {
+    margin: 0;
+    line-height: 2em;
+}
+
+.app-data-page-last > span:first-child, .app-data-page-first > span:last-child,
+.app-data-page-previous > span:last-child, .app-data-page-next > span:first-child {
+    display: none;
+}

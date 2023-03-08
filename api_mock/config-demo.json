@@ -1,0 +1,36 @@
+{
+  "auth": {
+    "provider": {
+      "github": {
+        "client_id": "",
+        "client_secret": "",
+        "scope": "user",
+        "userInfoGlue": "_",
+        "userInfoMapping": {"login": "login", "id": "id", "node_id": "id", "email":  "email", "avatar_url": "avatar", "name": "name"}
+      }
+    },
+    "client": {
+      "endUrl": "http://localhost:3000/",
+      "userInfo2Cookie": {"login": "login", "email": "email", "name": "name", "avatar": "avatar"}
+    }
+  },
+  "session": {
+    "store": {
+      "redis": {
+        "url": "redis://localhost:6379",
+        "socket": {},
+        "username": "default",
+        "password": ""
+      }
+    },
+    "cfg": {
+      "expirationTime": 18000000,
+      "signPassword": "<changeMe>"
+    }
+  },
+  "app": {
+    "pagination": {
+      "defaultSize": 10
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.userinfo img {
+    width: 32px !important;
+    max-width: 32px !important;
+    padding-right: 1em;
+}
+.userinfo {
+    line-height: 2.5em;
+}
+
+.signIn {
+    flex-direction: row-reverse;
+}
+
+.signInContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+.signInContainer > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.signIn {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.signIn button {
+    padding: .2em 0;
+}
+
+nav>.container button.navbar-toggler:not(.collapsed) ~ div .signInContainer,
+nav>.container button.navbar-toggler:not(.collapsed) ~ div .signInContainer > div,
+nav>.container button.navbar-toggler:not(.collapsed) ~ div .signInContainer > div > .userinfo,
+nav>.container button.navbar-toggler:not(.collapsed) ~ div .signInContainer > div > .signIn {
+    display: block !important;
+    text-align: left !important;
+    width: 100% !important;
+    padding: 0;
+}
+
+nav>.container button.navbar-toggler:not(.collapsed) ~ div .signInContainer > div .userinfo {
+    font-size: .9em;
+    font-style: italic;
+}

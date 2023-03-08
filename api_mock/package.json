@@ -1,0 +1,24 @@
+{
+  "name": "urifav-api-mock",
+  "version": "1.0.0",
+  "description": "api for urifav",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./server_v1.js localhost 3080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nico57c",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "connect-redis": "^6.1.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.3",
+    "nodemon": "^2.0.15",
+    "random-id": "^1.0.4",
+    "redis": "^4.2.0",
+    "uuid": "^8.3.2"
+  }
+}

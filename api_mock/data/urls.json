@@ -1,0 +1,52 @@
+[
+  {
+    "uuid": "123-123-123-123123123333",
+    "name": "Url1",
+    "url": "http://dell.fr/1",
+    "shared": false,
+    "share_token": "999-123-123-123-123123123333",
+    "category_uuid": "001-123-123-123-123123123333",
+    "creation_date": "2022-01-17T12:51:03.006Z",
+    "update_date": "2022-02-17T12:51:03.006Z"
+  },
+  {
+    "uuid": "123-123-123-123123123334",
+    "name": "Url2",
+    "url": "http://dell.fr/2",
+    "shared": true,
+    "share_token": "999-123-123-123-124",
+    "category_uuid": "001-123-123-123-123123123333",
+    "creation_date": "2022-01-17T18:51:03.006Z",
+    "update_date": "2022-02-15T12:51:03.006Z"
+  },
+  {
+    "uuid": "123-123-123-123123123335",
+    "name": "Url3",
+    "url": "http://dell.fr/3",
+    "shared": false,
+    "share_token": "999-123-123-123-125",
+    "category_uuid": "001-123-123-123-123123123333",
+    "creation_date": "2022-01-17T18:51:03.006Z",
+    "update_date": "2022-02-15T18:51:03.006Z"
+  },
+  {
+    "uuid": "123-123-123-123123123336",
+    "name": "Url4",
+    "url": "https://dell.fr/4",
+    "shared": true,
+    "share_token": "999-123-123-123-126",
+    "category_uuid": "002-123-123-123-123123123336",
+    "creation_date": "2022-01-17T18:51:03.006Z",
+    "update_date": "2022-02-12T12:51:03.006Z"
+  },
+  {
+    "uuid": "123-123-123-123123123337",
+    "name": "Url5",
+    "url": "https://dell.fr/5",
+    "shared": false,
+    "share_token": "999-123-123-123-127",
+    "category_uuid": "002-123-123-123-123123123337",
+    "creation_date": "2022-01-17T18:51:03.006Z",
+    "update_date": "2022-02-12T12:51:03.006Z"
+  }
+]
